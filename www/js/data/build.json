@@ -1,0 +1,10 @@
+{
+   "req_features": [
+      "csstransitions",
+      "cssanimations",
+      "csstransforms",
+      "backgroundsize",
+      "rgba",
+      "opacity"
+   ]
+}

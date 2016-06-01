@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en" class="no-js"><!--<![endif]-->
+   <head>
+
+      <!-- Basic Page Needs
+      ================================================== -->
+      <meta charset="utf-8">
+      <title>The portfolio of Fabian Prinz-Arnold | Addictivity.de</title>
+      <meta name="description" content="">
+      <meta name="author" content="Fabian Prinz-Arnold">
+      <meta name="Keywords" content="Aschaffenburg, Webdesign, Webdevelopment">
+
+      <!-- Mobile Specific Metas
+      ================================================== -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+      <!-- CSS / LESS
+      ================================================== -->
+      <link rel="stylesheet" type="text/css" href="css/style.css?v=1">
+      <link href='http://fonts.googleapis.com/css?family=Lobster|Gudea:400,700' rel='stylesheet' type='text/css'>
+
+      <!--[if lt IE 9]>
+              <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+
+      <!-- Favicon
+      ================================================== -->
+      <link rel="shortcut icon" href="favicon.ico"/>
+   </head>
+
+   <body>
+
+      <!-- Primary Page Layout
+      ================================================== -->
+      <div id="wrapper">
+         <div id="overlay">
+            
+            <div id="overlay_size" class="msg"><i class="fa fa-ban"></i> Your viewport is not large enough.</div>
+            <div id="overlay_feature" class="msg"><i class="fa fa-ban"></i> Your browser is missing a required feature.</div>
+         </div>
+
+         <!-- Stage -->
+         <div id="spark-spinner" style="z-index:1000; position:fixed; top:50%; left:50%; margin-top:-32px; margin-left:-32px;"><img src="img/prime-loader.gif" alt="" /></div>
+         <div id="stage"></div>
+         <div id="noise" data-paper-resize="true"></div>
+         <canvas id="canvas" data-paper-resize="true"></canvas>
+      </div>
+
+
+      <!-- JS
+      ================================================== -->
+      <script data-main="js/spark" src="js/vendor/require.js"></script>
+
+      <script type="text/javascript">
+         var _gaq = _gaq || [];
+         _gaq.push(['_setAccount', 'UA-31842495-1']);
+         _gaq.push(['_trackPageview']);
+
+         (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+         })();
+      </script>
+
+      <!-- End Document
+      ================================================== -->
+   </body>
+</html>

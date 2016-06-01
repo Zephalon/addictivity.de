@@ -1,0 +1,208 @@
+/*
+   Basics
+*/
+
+i {
+   padding-right:5px;
+
+   &.no-padding {
+      padding-right:0;
+   }
+}
+
+a {
+   text-decoration:none;
+   font-weight:bold;
+   color:#fff;
+}
+
+div {
+   backface-visibility:hidden;
+   -webkit-backface-visibility:hidden;
+   -moz-backface-visibility:hidden;
+   -ms-backface-visibility:hidden;
+}
+
+#micon {
+   color:#fff;
+   text-shadow:1px 1px 0 rgba(0,0,0,.5);
+   z-index:1001;
+   position:absolute;
+}
+
+/*
+   Primary Page Style
+*/
+
+body {
+   margin:0;
+   background-color:$color-base;
+   color:$color-text;
+   background-repeat:no-repeat;
+   background-position:top center;
+   color:$color-text;
+   @include bodyFont;
+   position:absolute;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   font-size:12px;
+}
+
+#wrapper, #loader, #stage {
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   overflow:hidden;
+   position:absolute;
+   padding:0;
+   margin:0;
+}
+
+#overlay {
+   background-color:#000;
+   background-color:rgba(0,0,0,.95);
+   position:absolute;
+   top:0;
+   left:0;
+   width:100%;
+   height:100%;
+   z-index:200;
+   display:none;
+
+   .msg {
+      color:#aaa;
+      font-size:1.2em;
+      width:80%;
+      margin-left:10%;
+      position:relative;
+      top:50%;
+      margin-top:-5em;
+      text-align:center;
+      display:none;
+   }
+}
+
+#canvas {}
+
+#noise {
+   position:absolute;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0;
+   background-image:url("../img/noise.png");
+   display:none;
+}
+
+#stage {
+   z-index:1;
+
+   #lightbox {
+      z-index:200;
+      display:none;
+      position:absolute;
+      top:0;
+      left:0;
+      bottom:0;
+      right:0;
+      cursor:pointer;
+      @include transition(opacity 0.5s ease-in);
+
+      #lightbox_bg {
+         position:absolute;
+         width:100%;
+         height:100%;
+         background-color:rgba(0,0,0,.75);
+         z-index:0;
+         opacity:0;
+         @include transition(opacity 1s ease-out);
+      }
+
+      #lightbox_content {
+         position:absolute;
+         left:40px;
+         top:40px;
+         bottom:40px;
+         right:40px;
+         z-index:1;
+         background-size:contain;
+         background-position:center center;
+         background-repeat:no-repeat;
+         border:5px solid #fff;
+         box-shadow:1px 1px 3px rgba(0,0,0,.5);
+         border-radius:2px;
+         opacity:0;
+         @include transition(opacity 1s ease-out);
+      }
+
+      &.active {
+         display:block;
+
+         #lightbox_bg { opacity:1; }
+         #lightbox_content { opacity:1; }
+      }
+   }
+
+   #fan_container {
+      z-index: 2;
+   }
+
+   #claim {
+      @include displayFont;
+      position:absolute;
+      left:80px;
+      right:80px;
+      top:50%;
+      text-align:center;
+      color:$color-text;
+      margin-top: -120px;
+      font-size:2em;
+      line-height:1.5;
+      color:rgba(255,255,255,0.2);
+      //text-shadow:2px 2px 0 lighten($color-base, 10%);
+   }
+}
+
+
+/*
+   Media Queries
+*/
+
+@media screen and (max-height: 480px), screen and (max-width: 800px) {
+   #stage {
+      #topbar {
+         height:$topbar-height-mobile;
+         overflow:hidden;
+
+         #logo {
+            margin-top:(($topbar-height-mobile*0.5)-(80*0.5));
+         }
+
+         #mainmenu {
+            #mainmenu_inner {
+               //padding-top:$topbar-height-mobile*0.5-20px;
+
+               .name {
+                  display:none;
+               }
+            }
+
+            i {
+               padding-right:0;
+            }
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 800px), screen and (max-height: 480px) {
+   #overlay { 
+      display:block;
+      #overlay_size {
+         display:block;
+      }
+   }
+}

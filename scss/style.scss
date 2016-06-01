@@ -1,0 +1,36 @@
+/* Mixins / Libs */
+@import 'bourbon/bourbon';
+@import 'font-awesome/font-awesome';
+@import 'animations';
+
+/* Fonts */
+@mixin displayFont () {
+   font-family: 'Lobster', serif;
+   -webkit-font-smoothing: antialiased;
+   webkit-font-smoothing: antialiased;
+}
+
+@mixin bodyFont () { 
+   font-family: 'Gudea', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   webkit-font-smoothing: antialiased;
+}
+
+/* Colors */
+$a-yellow:lighten(#EDCE60, 5%);
+$a-darkblue:#011736;
+
+$color-base:#222;
+$color-text:#ffffff;
+
+/* Dimensions */
+$topbar-height:120px;
+$topbar-height-mobile:40px;
+$page-width:80px;
+$page-height:200px;
+
+/* Imports */ 
+@import 'normalize';
+@import 'site';
+@import 'topbar';
+@import 'fan';

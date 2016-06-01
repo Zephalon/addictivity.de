@@ -1,0 +1,62 @@
+{
+   "mainmenu": [
+      {
+         "name": "Laboratory",
+         "url": "http://lab.addictivity.de",
+         "icon": "flask",
+         "target": "_blank"
+      },
+      {
+         "name": "Blog",
+         "url": "http://www.KatzeUndKater.de",
+         "icon": "book",
+         "target": "_blank"
+      },
+      {
+         "name": "Contact",
+         "url": "mailto:mail@addictivity.de",
+         "icon": "envelope"
+      }
+   ],
+   "surface": {
+      "tile_size": 75,
+      "accuracy": 40,
+      "change_duration": 120
+   },
+   "icon": {
+      "show_lightbox": "expand",
+      "hide_lightbox": "compress",
+      "move": "arrows"
+   },
+   "app": {
+      "home_title": "Welcome",
+      "title": " | Addictivity"
+   },
+   "lightbox": {
+      "speed": 200
+   },
+   "fan": {
+      "active_position": [250, 180],
+      "intertia": 0.1,
+      "speed": 750,
+      "peak_angle": 3,
+      "active_z": 10,
+      "inactive_z": 5
+   },
+   "page": {
+      "flip_speed": 1000,
+      "gap_minimal": 8,
+      "gap_before": -90,
+      "gap_after": 10,
+      "gap_base": 25,
+      "open_speed": 1000,
+      "width": 80,
+      "height": 200
+   },
+   "image": {
+      "cycle_change_duration": 600,
+      "cycle_delay": 8000,
+      "cycle_easing": "easeOutExpo",
+      "margin": [5, 5, 5, 5]
+   }
+}

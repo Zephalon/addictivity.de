@@ -1,0 +1,700 @@
+[
+   {
+      "title": "Websites",
+      "slug": "websites",
+      "color": "#F80E27",
+      "category": "work",
+      "pages": [
+         {
+            "title": "Inazuma Eleven Go Microsite",
+            "slug": "inazuma-eleven-go",
+            "year": 2014,
+            "live": "https://www.nintendo.co.uk/Games/Nintendo-3DS/Inazuma-Eleven-GO-Light-883636.html",
+            "ops": "Code",
+            "tags": "Microsite",
+            "client": "Nintendo",
+            "description": "",
+            "images": [
+               {
+                  "width": 1181,
+                  "height": 1124
+               }
+            ]
+         },
+         
+         {
+            "title": "Kunzmann Roadtrip",
+            "slug": "kunzmann-roadtrip",
+            "year": 2014,
+            "live": "http://www.kunzmann-roadtrip.de",
+            "ops": "Code",
+            "tags": "Responsive, Social API",
+            "client": "Autohaus Kunzmann",
+            "description": "",
+            "images": [
+               {
+                  "width": 1600,
+                  "height": 925
+               },
+               {
+                  "width": 1600,
+                  "height": 925
+               },
+               {
+                  "width": 510,
+                  "height": 656
+               }
+            ]
+         },
+         
+         {
+            "title": "VS Logistics",
+            "slug": "vsl",
+            "year": 2014,
+            "live": "http://www.vs-logistics.com",
+            "ops": "Code",
+            "tags": "Responsive",
+            "client": "VS Logistics",
+            "description": "",
+            "images": [
+               {
+                  "width": 1600,
+                  "height": 1008
+               },
+               {
+                  "width": 311,
+                  "height": 815
+               }
+            ]
+         },
+         
+         {
+            "title": "Katze & Kater",
+            "slug": "katzeundkater",
+            "year": 2012,
+            "live": "",
+            "ops": "Concept, Design, Code",
+            "tags": "Wordpress, Responsive",
+            "client": "Personal",
+            "description": "",
+            "images": [
+               {
+                  "width": 1663,
+                  "height": 2370
+               },
+               {
+                  "width": 838,
+                  "height": 780
+               },
+               {
+                  "width": 553,
+                  "height": 788
+               }
+            ]
+         },
+
+         {
+            "title": "Superstudium.de",
+            "slug": "superstudium",
+            "year": 2012,
+            "ops": "Rebranding, Design",
+            "tags": "Redesign",
+            "client": "CAPCom AG",
+            "description": "",
+            "images": [
+               {
+                  "width": 1262,
+                  "height": 820
+               }
+            ]
+         },
+
+         {
+            "title": "Addictivity v5",
+            "slug": "add5",
+            "year": 2012,
+            "ops": "Design, Code",
+            "tags": "Wordpress, Responsive",
+            "client": "Personal",
+            "description": "",
+            "images": [
+               {
+                  "width": 1113,
+                  "height": 2139
+               },
+               {
+                  "width": 1113,
+                  "height": 1039
+               },
+               {
+                  "width": 478,
+                  "height": 1026
+               },
+               {
+                  "width": 478,
+                  "height": 804
+               }
+            ]
+         },
+
+         {
+            "title": "Terra Piú",
+            "slug": "terra-piu",
+            "year": 2011,
+            "live": "http://live.addictivity.de/terra-piu/",
+            "ops": "Concept, Design, Code",
+            "tags": "",
+            "client": "School",
+            "description": "",
+            "images": [
+               {
+                  "width": 1586,
+                  "height": 819
+               },
+               {
+                  "width": 1586,
+                  "height": 819
+               }
+            ]
+         },
+
+         {
+            "title": "Reppa.tv Microsite",
+            "slug": "reppatv",
+            "year": 2011,
+            "live": "http://www.reppa.tv",
+            "ops": "Concept, Design, Code",
+            "tags": "AJAX, Shopping",
+            "client": "Reppa GmbH",
+            "description": "",
+            "images": [
+               {
+                  "width": 1253,
+                  "height": 843
+               }
+            ]
+         },
+
+         {
+            "title": "Zissel",
+            "slug": "zissel",
+            "year": 2011,
+            "live": "http://live.addictivity.de/zissel/",
+            "ops": "Branding, Concept, Design, Code",
+            "tags": "",
+            "client": "School",
+            "description": "",
+            "images": [
+               {
+                  "width": 1111,
+                  "height": 1000
+               },
+               {
+                  "width": 1111,
+                  "height": 860
+               }
+            ]
+         },
+
+         {
+            "title": "Logistica",
+            "slug": "logistica",
+            "year": 2011,
+            "live": "http://live.addictivity.de/logistica/",
+            "ops": "Concept, Design, Code",
+            "tags": "",
+            "client": "School",
+            "description": "",
+            "images": [
+               {
+                  "width": 1196,
+                  "height": 1104
+               },
+               {
+                  "width": 1196,
+                  "height": 1181
+               },
+               {
+                  "width": 1196,
+                  "height": 1245
+               }
+            ]
+         }
+      ]
+   },
+
+
+   {
+      "title": "Applications",
+      "slug": "applications",
+      "color": "#EECE00",
+      "category": "work",
+      "pages": [
+         {
+            "title": "Skyplex (Preview)",
+            "slug": "skyplex",
+            "year": "2011 - 2012",
+            "ops": "Branding, Concept, Design, Code",
+            "tags": "Game, AJAX",
+            "client": "Personal",
+            "description": "",
+            "images": [
+               {
+                  "width": 1280,
+                  "height": 850
+               },
+               {
+                  "width": 1280,
+                  "height": 850
+               },
+               {
+                  "width": 1280,
+                  "height": 850
+               },
+               {
+                  "width": 1280,
+                  "height": 850
+               },
+               {
+                  "width": 1280,
+                  "height": 850
+               },
+               {
+                  "width": 1280,
+                  "height": 850
+               }
+            ]
+         },
+
+         {
+            "title": "TeaTimer",
+            "slug": "teezeit",
+            "year": "2012",
+            "ops": "Interface, Design",
+            "tags": "Android, App",
+            "client": "CAPCom AG",
+            "description": "",
+            "images": [
+               {
+                  "width": 307,
+                  "height": 512
+               },
+               {
+                  "width": 307,
+                  "height": 512
+               },
+               {
+                  "width": 307,
+                  "height": 512
+               },
+               {
+                  "width": 307,
+                  "height": 512
+               }
+            ]
+         },
+
+         {
+            "title": "360° Player",
+            "slug": "360-player",
+            "year": "2012",
+            "live": "http://www.reppa.de/360-Grad-Animationen.htm",
+            "ops": "Concept, Design, Code",
+            "tags": "Flash, Shop",
+            "client": "Reppa GmbH",
+            "description": "",
+            "images": [
+               {
+                  "width": 640,
+                  "height": 350
+               },
+               {
+                  "width": 640,
+                  "height": 350
+               },
+               {
+                  "width": 640,
+                  "height": 350
+               },
+               {
+                  "width": 640,
+                  "height": 350
+               }
+            ]
+         }
+      ]
+   },
+
+
+   {
+      "title": "Graphic Design",
+      "slug": "graphic-design",
+      "color": "#5eac3b",
+      "category": "work",
+      "pages": [
+         {
+            "title": "Mars And Venus",
+            "slug": "mars-and-venus",
+            "year": "2012",
+            "ops": "Concept, Design, Code",
+            "tags": "Print, Poster",
+            "client": "Personal",
+            "description": "",
+            "images": [
+               {
+                  "width": 800,
+                  "height": 800
+               },
+               {
+                  "width": 800,
+                  "height": 800
+               }
+            ]
+         },
+
+         {
+            "title": "HT4U 2010/2011",
+            "slug": "ht4u-2010-2011",
+            "year": "2010 - 2011",
+            "ops": "Concept, Design",
+            "tags": "Hardware",
+            "client": "HT4U.net",
+            "description": "",
+            "images": [
+               {
+                  "width": 550,
+                  "height": 450
+               },
+               {
+                  "width": 550,
+                  "height": 428
+               },
+               {
+                  "width": 550,
+                  "height": 428
+               },
+               {
+                  "width": 550,
+                  "height": 427
+               },
+               {
+                  "width": 550,
+                  "height": 450
+               },
+               {
+                  "width": 550,
+                  "height": 450
+               },
+               {
+                  "width": 550,
+                  "height": 450
+               },
+               {
+                  "width": 550,
+                  "height": 428
+               },
+               {
+                  "width": 550,
+                  "height": 428
+               },
+               {
+                  "width": 550,
+                  "height": 428
+               }
+            ]
+         },
+
+         {
+            "title": "Wahlen RLP",
+            "slug": "wahlen-rlp",
+            "year": "2011",
+            "ops": "Concept, Design",
+            "tags": "Print, Poster, Experimental",
+            "client": "School",
+            "description": "",
+            "images": [
+               {
+                  "width": 724,
+                  "height": 1024
+               },
+               {
+                  "width": 724,
+                  "height": 1024
+               },
+               {
+                  "width": 724,
+                  "height": 1024
+               }
+            ]
+         },
+
+         {
+            "title": "We Sing",
+            "slug": "wesing",
+            "year": "2010",
+            "ops": "Concept, Design",
+            "tags": "Print, Poster",
+            "client": "We Sing",
+            "description": "",
+            "images": [
+               {
+                  "width": 724,
+                  "height": 1024
+               }
+            ]
+         },
+
+         {
+            "title": "vCard 1",
+            "slug": "vcard-1",
+            "year": "2010",
+            "ops": "Concept, Design",
+            "tags": "Print",
+            "client": "Personal",
+            "description": "",
+            "images": [
+               {
+                  "type": "png",
+                  "width": 900,
+                  "height": 600
+               }
+            ]
+         },
+
+         {
+            "title": "HT4U 2008/2009",
+            "slug": "ht4u-2008-2009",
+            "year": "2008 - 2009",
+            "ops": "Concept, Design",
+            "tags": "Hardware",
+            "client": "HT4U.net",
+            "description": "",
+            "images": [
+               {
+                  "width": 550,
+                  "height": 428
+               },
+               {
+                  "width": 550,
+                  "height": 450
+               },
+               {
+                  "width": 550,
+                  "height": 350
+               },
+               {
+                  "width": 550,
+                  "height": 450
+               },
+               {
+                  "width": 550,
+                  "height": 450
+               },
+               {
+                  "width": 550,
+                  "height": 428
+               },
+               {
+                  "width": 550,
+                  "height": 450
+               },
+               {
+                  "width": 550,
+                  "height": 428
+               },
+               {
+                  "width": 550,
+                  "height": 428
+               },
+               {
+                  "width": 550,
+                  "height": 428
+               },
+               {
+                  "width": 550,
+                  "height": 428
+               },
+               {
+                  "width": 550,
+                  "height": 634
+               },
+               {
+                  "width": 550,
+                  "height": 427
+               }
+            ]
+         }
+      ]
+   },
+
+
+   {
+      "title": "Artwork",
+      "slug": "artwork",
+      "color": "#0D9FD8",
+      "category": "work",
+      "pages": [
+
+         {
+            "title": "Heart Of The Galaxy",
+            "slug": "heart-of-the-galaxy",
+            "year": 2011,
+            "ops": "Concept, Design",
+            "tags": "Space",
+            "client": "Personal",
+            "description": "",
+            "images": [
+               {
+                  "width": 600,
+                  "height": 849
+               }
+            ]
+         },
+
+         {
+            "title": "Lighthouse",
+            "slug": "lighthouse",
+            "year": 2011,
+            "ops": "Concept, Design",
+            "tags": "3D, Space",
+            "client": "Personal",
+            "description": "",
+            "images": [
+               {
+                  "width": 400,
+                  "height": 600
+               }
+            ]
+         },
+         
+         {
+            "title": "Gravity",
+            "slug": "gravity",
+            "year": 2010,
+            "ops": "Concept, Design",
+            "tags": "Cinema 4D",
+            "client": "Personal",
+            "description": "",
+            "images": [
+               {
+                  "width": 1024,
+                  "height": 640
+               }
+            ]
+         },
+
+         {
+            "title": "Character",
+            "slug": "character",
+            "year": 2010,
+            "ops": "Concept, Design",
+            "tags": "Cinema 4D",
+            "client": "Personal",
+            "description": "",
+            "images": [
+               {
+                  "width": 800,
+                  "height": 500
+               }
+            ]
+         },
+
+         {
+            "title": "Broken Moon",
+            "slug": "broken-moon",
+            "year": 2010,
+            "ops": "Concept, Design",
+            "tags": "3D, Space",
+            "client": "Personal",
+            "description": "",
+            "images": [
+               {
+                  "width": 700,
+                  "height": 438
+               }
+            ]
+         },
+
+         {
+            "title": "Starships",
+            "slug": "starships",
+            "year": 2008,
+            "ops": "Concept, Design",
+            "tags": "Cinema 4D",
+            "client": "Personal",
+            "description": "",
+            "images": [
+               {
+                  "width": 800,
+                  "height": 600
+               },
+               {
+                  "width": 800,
+                  "height": 600
+               },
+               {
+                  "width": 800,
+                  "height": 600
+               },
+               {
+                  "width": 800,
+                  "height": 600
+               },
+               {
+                  "width": 800,
+                  "height": 600
+               }
+            ]
+         },
+
+         {
+            "title": "Don´t wait for me",
+            "slug": "dont-wait-for-me",
+            "year": 2008,
+            "ops": "Concept, Design",
+            "tags": "",
+            "client": "Personal",
+            "description": "",
+            "images": [
+               {
+                  "type": "png",
+                  "width": 1600,
+                  "height": 1200
+               }
+            ]
+         }
+      ]
+   },
+
+
+   {
+      "title": "About",
+      "slug": "about",
+      "color": "#8569CF",
+      "category": "info",
+      "pages": [
+         {
+            "title": "Fabian Prinz-Arnold",
+            "slug": "about-me",
+            "description": "I'm a Web Designer und Developer from germany. I love to bring design and code together to create something truly unique. When i'm not getting paid for my passion i'm pursuing my own projects, travel, play games or watch tv shows.",
+            "images": [
+               {
+                  "height": 600,
+                  "width": 800
+               }
+            ]
+         },
+         {
+            "title": "About this site",
+            "slug": "about-site",
+            "description": "This is the 6th version of my portfolio page. It's build with passion and ontop this awesome tools and frameworks: Require.js, Backbone, jQuery, Modernizr, Mustache and  Underscore.js.",
+            "images": [
+               {
+                  "height": 622,
+                  "width": 1016
+               }
+            ]
+         }
+      ]
+   }
+]

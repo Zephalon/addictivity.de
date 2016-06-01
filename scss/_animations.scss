@@ -1,0 +1,17 @@
+@include keyframes(scale-in) {
+   from {
+      @include transform(scale(0));
+   }
+   to {
+      @include transform(scale(1));
+   }
+}
+
+@include keyframes(scale-out) {
+   from {
+      @include transform(scale(1));
+   }
+   to {
+      @include transform(scale(0));
+   }
+}

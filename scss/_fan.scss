@@ -1,0 +1,287 @@
+/*
+   Fans
+*/
+.fan {
+   position:absolute;
+   width:$page-width;
+   height:$page-height;
+
+   &.open {
+
+
+      .page, .cover {
+         @include transition-duration(0.6s);
+
+         .underlay {
+            height:20px;
+         }
+
+         .colorcode { 
+            display:block;
+            max-height:32px;
+         }
+
+         .prv_img { opacity:0.4; }
+
+         &:hover, &.active {
+            .colorcode { 
+               display:block;
+               height:20px;
+            }
+
+            .prv_img { 
+               opacity:1;
+               top:15px;
+            }
+         }
+      }
+   }
+}
+
+
+/*
+   Pages
+*/
+.page, .cover {
+   margin-top:-200px;
+   position:absolute;
+   @include transition(all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1));
+}
+
+.page {
+   z-index:3;
+   overflow: visible;
+   @include linear-gradient(90deg, $color-base, lighten($color-base, 20%), $fallback: darken($color-base, 5%));
+   border-top:1px solid lighten($color-base, 10%);
+   border-radius:2px;
+
+   .teaser {
+      width:$page-width;
+      height:$page-height;
+
+      .colorcode {
+         position:absolute;
+         top:-5px;
+         height:5px;
+         width:$page-width;
+         overflow:hidden;
+         cursor:pointer;
+         z-index:1;
+         display:none;
+         max-height:0;
+         @include transition(all 0.4s ease-out);
+         z-index:1;
+         border-radius:2px 2px 0 0;
+
+         .text {
+            color:#fff;
+            font-weight:700;
+            text-align:right;
+            position:absolute;
+            right:10px;
+            top:7px;
+            display:none;
+         }
+      }
+
+      .prv_img {
+         position:absolute;
+         top:0;
+         left:0;
+         right:0;
+         bottom:0;
+         background-repeat:no-repeat;
+         background-position:center center;
+         opacity:.5;
+         cursor:pointer;
+         z-index:0;
+         opacity:0;
+         @include transition(all 0.4s);
+      }
+   }
+
+
+
+   .content {
+      position:absolute;
+      bottom:0;
+      right:0;
+      display:none;
+      background-position:right bottom;
+      border-right:1px solid #999;
+      border-bottom:1px solid #999;
+      overflow:hidden;
+      z-index:2;
+      border-radius:2px;
+
+      &:hover .control_panel {
+         left:0;
+         right:0;
+         @include transition(all 0.2s);
+         opacity:1;
+      }
+
+      .control_panel {
+         position:absolute;
+         top:50%;
+         margin-top:-40px;
+         left:-40px;
+         right:-40px;
+         color:#fff;
+         font-size:1.4em;
+         @include transition(all 0.5s);
+         opacity:0;
+
+         .prev, .next {
+            position:absolute;
+            cursor:pointer;
+            @include transition(all 0.5s);
+            padding:40px;
+            opacity:.5;
+         }
+
+         .prev {
+            left:0;
+            padding-left:20px;
+            &:hover {
+               @include transition(all 0.3s);
+               padding-left:15px;
+               opacity:1;
+            }
+         }
+         .next {
+            right:0;
+            padding-right:20px;
+            &:hover {
+               @include transition(all 0.3s);
+               padding-right:15px;
+               opacity:1;
+            }
+         }
+      }
+
+      .images {
+         position:absolute;
+         bottom:0;
+         top:0;
+         left:0;
+         right:0;
+         background-image:url(../img/loader.gif), url(../img/tiny_grid.png);
+         background-repeat:no-repeat, repeat;
+         background-position:center center, left top;
+
+         .image {
+            position:absolute;
+            top:5px;
+            bottom:5px;
+            left:5px;
+            right:5px;
+            background-size: 100% auto;
+            background-position:right bottom;
+            display:none;
+            cursor:pointer;
+         }
+      }
+
+      .meta {
+         position:absolute;
+         bottom:0;
+         left:0;
+         right:0;
+         color:#fff;
+         z-index:2;
+         padding-top:40px;
+
+         .title {
+            text-transform:uppercase;
+            padding:10px 20px 10px 40px;
+            float:left;
+            margin-bottom:20px;
+            font-weight:700;
+         }
+
+         .more {
+            display:none;
+            width:100%;
+            float:left;
+
+            .extra {
+               float:left;
+               padding:10px 100px 10px 40px;
+
+               .x {
+                  float:left;
+                  pointer-events:all;
+                  margin-right:20px;
+               }
+            }
+
+            .description {
+               float:left;
+               padding:10px 40px 30px 40px;
+               -moz-column-count: 5;
+               -moz-column-gap: 20px;
+               -moz-column-width:250px;
+               -moz-column-min-width:250px;
+               -webkit-column-count: 5;
+               -webkit-column-gap: 20px;
+               -webkit-column-width:250px;
+               -webkit-column-min-width:250px;
+               column-count: 5;
+               column-gap: 20px;
+               column-width:250px;
+               column-min-width:250px;
+            }
+         }
+      }
+   }
+}
+
+.cover {
+   position:absolute;
+   cursor:pointer;
+   width:$page-width;
+   height:$page-height;
+
+   &:hover {
+      .underlay {
+         height:20px;
+      }
+   }
+
+   .underlay {
+      position:absolute;
+      top:-5px;
+      left:0px;
+      right:0px;
+      height:5px;
+      border-radius:2px 2px 0 0;
+      background-color:darken($color-base, 3%);
+      z-index:1;
+      @include transition(all 0.8s cubic-bezier(0.645, 0.045, 0.355, 1));
+   }
+
+   .overlay {
+      position:absolute;
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      border-radius:0 0 2px 2px;
+      @include linear-gradient(90deg, darken($color-base, 5%), darken($color-base, 3%), $fallback: darken($color-base, 5%));
+      z-index:0;
+   }
+
+   .title {
+      @include transform(rotate(90deg));
+      @include displayFont;
+      font-size:1.4em;
+      text-align:center;
+      width:200px;
+      position:relative;
+      top:85px;
+      left:-60px;
+      z-index:2;
+      //text-shadow:1px 1px 0 rgba(0,0,0,.75);
+   }
+}

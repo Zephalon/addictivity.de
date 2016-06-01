@@ -1,0 +1,24 @@
+<div class="content">
+   <div class="images"></div>
+   <div class="control_panel" style="color:{{color}}">
+      <div class="prev fa fa-chevron-left"></div>
+      <div class="next fa fa-chevron-right"></div>
+   </div>
+   <div class="meta">
+      <div class="title" style="background-color:{{color}}">{{title}}</div>
+      <div class="more" style="background-color:{{color}}">
+         {{#description}}<div class="description">{{{description}}}</div>{{/description}}
+         <div class="extra">
+            {{#year}}<div class="year x" title="Year of creation"><i class="fa fa-calendar"></i>{{year}}</div>{{/year}}
+            {{#ops}}<div class="ops x" title="Services"><i class="fa fa-pencil"></i>{{ops}}</div>{{/ops}}
+            {{#tags}}<div class="tags x" title="Tags"><i class="fa fa-tags"></i>{{tags}}</div>{{/tags}}
+            {{#client}}<div class="client x" title="Client"><i class="fa fa-user"></i>{{client}}</div>{{/client}}
+            {{#live}}<a class="link x" href="{{live}}" target="_blank" title="Show live"><i class="fa fa-link"></i>Show Live</a>{{/live}}
+         </div>
+      </div>
+   </div>
+</div>
+<div class="teaser">
+   <div class="colorcode" style="background-color:{{color}};"><div class="text">{{id}}</div></div>
+   <div class="prv_img"></div>
+</div>
